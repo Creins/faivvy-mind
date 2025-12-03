@@ -59,9 +59,9 @@
 
 
 
-## 𝐑𝐄𝐀𝐂𝐇 𝐎𝐔𝐓 bravin SIR
+## 𝐑𝐄𝐀𝐂𝐇 𝐎𝐔𝐓 creins
 
- <a href="https://github.com/whatsapp-bot254/whatsapp-xmd"><img title="REACH OUT OBEDTECH" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
+ <a href="https://github.com/whatsapp-bot254/whatsapp-xmd"><img title="REACH OUT OBEDTECH" src=https://whatsapp.com/channel/0029VbBFfpSLikgCJ7qbG242/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
  
 
 
