@@ -1,0 +1,30 @@
+)
+
+Prerequisites:
+- Meta developer account and app with WhatsApp product.
+- A WhatsApp Business phone number connected to the app (phone number id).
+- A permanent access token or a test token (for development).
+
+Environment variables:
+- VERIFY_TOKEN: token you use when configuring the webhook verify step
+- PHONE_NUMBER_ID: the phone_number_id assigned by Meta for your WhatsApp number
+- WHATSAPP_TOKEN: the access token (bearer)
+
+Run:
+1. Install dependencies:
+   npm install express body-parser node-fetch
+
+2. Start (example):
+   VERIFY_TOKEN=abc PHONE_NUMBER_ID=123 WHATSAPP_TOKEN=EAA... node server.js
+
+3. Expose via HTTPS (ngrok for testing):
+   ngrok http 3000
+   Use the ngrok HTTPS URL as the webhook URL in Meta app (add '/webhook') and set the verify token.
+
+4. Send messages:
+   Use the Graph API /{PHONE_NUMBER_ID}/messages endpoint (see README for example curl).
+
+Notes:
+- Use message templates for outbound notifications (require approval).
+- Keep tokens secret.
+- Follow WhatsApp Commerce & Business policies.
