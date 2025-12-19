@@ -30,7 +30,7 @@
 
 <!-- Deploy Button (Heroku) -->
 <p align="center">
-  <a href="https://www.heroku.com/deploy?template=https://github.com/sesco001/Makamesco-Ai" target="_blank">
+  <a href="https://www.heroku.com/deploy?template=https://github.com/Creins/faivvy-mind" target="_blank">
     <img src="https://img.shields.io/badge/DEPLOY%20ON-HEROKU-430098?style=for-the-badge&logo=heroku" alt="Deploy on Heroku" width="240">
   </a>
 </p>
