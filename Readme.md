@@ -37,7 +37,11 @@
 
 ## 🌐 **DEPLOYMENT SITE** 👇
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=.https://github.com/Creins/faivvy-mind)
+
+  </a>
+  <a href="https://dashboard.heroku.com/new?template=.https://github.com/Creins/faivvy-mind/" target="_blank" rel="noopener noreferrer">
+    <img title="DEok" src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
+  </a>
 
 <a href='https://replit.com/~' target="_blank"><img alt='Deploy Replit' src='https://img.shields.io/badge/DEPLOY REPLIT-black?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
