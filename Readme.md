@@ -1,10 +1,10 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+TECH+EXPERT+MD+MADE+BY;TECH+EXPERT;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+TECH+CREINS+XMD+MADE+BY;TECH+CREINS;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
-<img src="pi" height="100%" width="100%">
+<img src="https://files.catbox.moe/ap04nl.jpeg" height="100%" width="100%">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=F70707&center=true&width=910&height=100&lines=TECH+EXPERT+MD" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=F70707&center=true&width=910&height=100&lines=CREINS+XMD" alt="Typing SVG" /></a>
 
 
 ---
