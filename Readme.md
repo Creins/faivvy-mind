@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+TECH+EXPERT+MD+MADE+BY;TECH+EXPERT;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
 
-<img src="https://files.catbox.moe/s3wv2g.jpg" height="100%" width="100%">
+<img src="pi" height="100%" width="100%">
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=F70707&center=true&width=910&height=100&lines=TECH+EXPERT+MD" alt="Typing SVG" /></a>
 
@@ -37,7 +37,7 @@
 
 ## 🌐 **DEPLOYMENT SITE** 👇
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MESHACK41/TECH-EXPERT-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=.https://github.com/Creins/faivvy-mind)
 
 <a href='https://replit.com/~' target="_blank"><img alt='Deploy Replit' src='https://img.shields.io/badge/DEPLOY REPLIT-black?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
