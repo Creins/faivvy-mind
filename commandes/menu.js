@@ -41,7 +41,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandOptions)
 
 📌 _*Type the command to proceed.*_  
 ════════════════════════  
-🎉 thank you for choosing tech expert md
+🎉 thank you for choosing tech creins-xmd
 ════════════════════════\n`;
 
     let fullMenu = `\n *COMMANDS*${readmore}\n`;
@@ -53,7 +53,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandOptions)
         }
         fullMenu += `\n╰───────────────▸▸ \n`;
     }
-       let imageUrl = "https://files.catbox.moe/s3wv2g.jpg";
+       let imageUrl = "https://files.catbox.moe/ap04nl.jpeg";
        
     fullMenu += `> Regards Fredi Ai\n`;
 
@@ -66,7 +66,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandOptions)
             await zk.sendMessage(dest, {
                 video: { url: imageOrVideoUrl },
                 caption: headerMessage + fullMenu,
-                footer: "TECH-EXPERT-MD*, developed by Mr Meshack",
+                footer: "creins-xmd*, developed by sir creins",
                 gifPlayback: true
             }, { quoted: ms });
         } 
@@ -75,7 +75,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandOptions)
             await zk.sendMessage(dest, {
                 image: { url: imageOrVideoUrl },
                 caption: headerMessage + fullMenu,
-                footer: "TECH-EXPERT-MD*, developed by Mr Meshack"
+                footer: "creins xmd*, developed by Mr creins"
             }, { quoted: ms });
         } 
         // If none of the above, send text only
