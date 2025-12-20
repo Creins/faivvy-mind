@@ -1,9 +1,9 @@
 {
-  "name":"TECH EXPERT MD",
-  "description":"Deploy now your bot, EXPERT-MD was developed by Meshack. Make sure you fill all valuables to avoid bot from sleeping. ",
+  "name":"TECH creins-xmd",
+  "description":"Deploy now your bot, creins-xmd was developed by sir creins.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/s3wv2g.jpg",
-  "repository":"https://github.com/MESHACK41/TECH-EXPERT-MD",
+  "logo":"https://files.catbox.moe/ap04nl.jpeg",
+  "repository":"https://github.com/Creins/faivvy-mind",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -50,7 +50,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠TECH-EXPERT-MD✧",
+      "value": "✧creins-xmd✧",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -70,12 +70,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Mr Meshack",
+      "value": "Mr creins",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/s3wv2g.jpg",
+      "value": "",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -84,8 +84,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255711389698",
+      "description": "Your phone number (exclude '+' and area code, e.g., '25575*******')",
+      "value": "254717******",
       "required": false
     },
     "WARN_COUNT": {
