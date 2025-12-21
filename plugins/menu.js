@@ -26,8 +26,8 @@ const toFancyLowercaseFont = (text) => {
 
 ezra({ 
     nomCom: "menu", 
-    categorie: "Fredi-Menu", 
-    reaction: "☢️", 
+    categorie: "creins-Menu", 
+    reaction: "🎁", 
     nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
     const { repondre, prefixe, nomAuteurMessage } = commandeOptions;
@@ -53,17 +53,17 @@ ezra({
 
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
-    const img = 'https://files.catbox.moe/5x1y2z.png';
-    const imgs = 'https://files.catbox.moe/5x1y2z.png';
+    const img = 'https://files.catbox.moe/5mh0lq.jpeg';
+    const imgs = 'https://files.catbox.moe/5mh0lq.jpeg';
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ☢️LUCKY MD X-FORCE☢️*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ☢️ CREINS XMD ☢️*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ ɪs : FREDI*
+*┋* *ᴏᴡɴᴇʀ ɪs : creins*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -82,24 +82,24 @@ ezra({
     }
     
     menuMsg += `
-> @made by FredieTech 2025\n`;
+> @made by creins 2025\n`;
 
     try {
         await zk.sendMessage(dest, { 
-            image: { url: "https://files.catbox.moe/uw4l17.jpeg" },
+            image: { url: "https://files.catbox.moe/5mh0lq.jpeg" },
             caption: infoMsg + menuMsg,
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363313124070136@newsletter",
-                    newsletterName: "@FrediEzra",
+                    newsletterJid: "120363419969992177@newsletter",
+                    newsletterName: "@sir crien s",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "☢️LUCKY MD X-FORCE☢️",
+                    title: "☢️ creins ☢️",
                     body: "🔑🗝️ Command List",
-                    thumbnailUrl: "https://files.catbox.moe/3o37c5.jpeg",
+                    thumbnailUrl: "https://files.catbox.moe/5mh0lq.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
                     mediaType: 1,
                     renderLargerThumbnail: true
