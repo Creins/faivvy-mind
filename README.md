@@ -1,22 +1,22 @@
 
 
-# 🌟 LUCKY XFORCE 🚀
+# 🌟 creins xmd🚀
 
-[![FREDIEZRA TECH](https://raw.githubusercontent.com/mr-X-force/LUCKY-MD-XFORCE/main/media/lucky.svg)](https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f)
+[![FREDIEZRA TECH](https://raw.githubusercontent.com/creins-xmd/main/media/lucky.svg)](https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m)
 
 ---
 
 ## 📊 Profile Overview
 
-👤 **Developer**: [FREDI AI](https://github.com/mr-X-force)  
+👤 **Developer**: [FREDI AI](https://github.com/creins)  
 📊 **Profile Views**:  
-![Profile Views](https://komarev.com/ghpvc/?username=mr-X-force&label=VIEWS&style=flat-square&color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=mr-creins&label=VIEWS&style=flat-square&color=blue)
 
 📈 **GitHub Stats**:  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-X-force&show_icons=true&theme=github_dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-creins&show_icons=true&theme=github_dark)
 
 🏆 **Trophies**:  
-![Trophies](https://github-profile-trophy.vercel.app/?username=mr-X-force&theme=monokai)
+![Trophies](https://github-profile-trophy.vercel.app/?username=crein&theme=monokai)
 
 📈 **Contributions Graph**:  
 ![Contributions](https://activity-graph.herokuapp.com/graph?username=mr-X-force&theme=github)
@@ -36,75 +36,16 @@
 
 ## 📥 Download ZIP
 
-📁 **Download ZIP File**: [LUCKY XFORCE ZIP 📁](https://github.com/mr-X-force/LUCKY-MD-XFORCE/archive/refs/heads/main.zip)
+📁 **Download ZIP File**: [creins xmd zip 📁](https://github.com/Creins/faivvy-mind/archive/refs/heads/main.zip)
 
 ---
 
 ## 🚀 Deployment Options
 
-### 🌐 Cloud Platforms
-
-#### 1. **Heroku**  
-[Heroku](https://lucky-md-xforce-deploy-your-bot-with-your-github-username.vercel.app)  
-<details><summary>Steps</summary>
-1. Fork this repo  
-2. Click Heroku button above  
-3. Connect your GitHub and select this repo  
-4. Set config vars like SESSION_ID  
-5. Click **Deploy App**  
-</details>
-
-#### 2. **Railway**  
-[Railway](https://railway.app/new)  
-<details><summary>Steps</summary>
-1. Open link  
-2. Click **Deploy from GitHub repo**  
-3. Select this repo  
-4. Go to variables tab → add SESSION_ID, AUTOBIO etc.  
-5. Deploy  
-</details>
-
-#### 3. **Koyeb**  
-[Koyeb](https://app.koyeb.com/services/deploy?type=git&repository=mr-X-force/LUCKY-MD-XFORCE)  
-<details><summary>Steps</summary>
-1. Click above to open deploy panel  
-2. Authorize GitHub and select repo  
-3. Set environment variables  
-4. Deploy and wait for logs to show successful build  
-</details>
-
-#### 4. **Render**  
-[Render](https://dashboard.render.com/web/new)  
-<details><summary>Steps</summary>
-1. Open Render dashboard  
-2. Click **New Web Service**  
-3. Connect your GitHub  
-4. Choose this repo  
-5. Add build/start command & ENV vars  
-6. Click **Create Web Service**  
-</details>
-
-#### 5. **TalkDrove**  
-[TalkDrove](https://host.talkdrove.com/share-bot/47)  
-<details><summary>Steps</summary>
-1. Open the TalkDrove link  
-2. Click **Deploy Now**  
-3. Paste repo link  
-4. Add ENV values (SESSION_ID)  
-5. Deploy the bot  
-</details>
-
-#### 6. **Netlify** (For Frontend)  
-[Netlif](https://app.netlify.com/)  
-<details><summary>Steps</summary>
-1. Use for frontend session site only  
-2. Drag/drop or link repo with index.html  
-3. Publish to host session UI  
-</details>
-
----
-
-## 🛠️ Setup Guide
+  </a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Creins/faivvy-mind/new-bot" target="_blank" rel="noopener noreferrer">
+    <img title="DEPLOY creins xmd" src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=red&color=FF00FF" width="260" height="50"/>
+</a>
 
 1. **Fork the Repo**: Start by forking this repository to your GitHub account.  
 2. **Get Session ID**: Use [this link](https://test-pair-uuw6.onrender.com) to get your session ID.  
