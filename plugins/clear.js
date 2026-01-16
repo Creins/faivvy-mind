@@ -1,4 +1,4 @@
-const { ezra } = require("../fredi/ezra");
+const { ezra } = require("../creins/ibraal");
 
 // 
 let botMessages = {};
@@ -6,7 +6,7 @@ let botMessages = {};
 ezra(
   {
     nomCom: "clear",
-    categorie: "Fredi-New",
+    categorie: "Creins-New",
     reaction: "⚡",
   },
   async (dest, zk, commandeOptions) => {
@@ -46,7 +46,7 @@ ezra(
       await zk.sendMessage(
         dest,
         {
-          text: `Success cleared ${deletedCount} bot message ${deletedCount === 1 ? "" : "𝐻"}!\n\n> Powered by FredieTech`,
+          text: `Success cleared ${deletedCount} bot message ${deletedCount === 1 ? "" : "𝐻"}!\n\n> Powered by CreinsTech`,
         },
         { quoted: ms }
       );
