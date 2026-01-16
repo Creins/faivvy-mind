@@ -1,4 +1,4 @@
-const { ezra } = require(__dirname + "/../fredi/ezra");
+const { ibraal } = require(__dirname + "/../creins/ibraal");
 
 // Function to convert text to fancy uppercase font
 const toFancyUppercaseFont = (text) => {
@@ -19,17 +19,17 @@ const toFancyLowercaseFont = (text) => {
 }
 
 // Command to list all bot commands along with descriptions and aliases
-ezra({
+ibraal({
     nomCom: "help",
     reaction: "🤦",
     aliases: ["panelist", "commandlist", "cmdlist", "list"],
     desc: "Get bot command list.",
-    categorie: "Fredi-Menu"
+    categorie: "Creins-Menu"
 }, async (dest, zk, context) => {
     const { respond, prefix, nomAuteurMessage } = context;
-    const commands = require(__dirname + "/../fredi/ezra").cm;
+    const commands = require(__dirname + "/../Creins/ibraal").cm;
 
-    let menu = '☢️LUCKY MD X-FORCE☢️ COMMAND LIST\n\n';
+    let menu = '☢️CREINS MD X-FORCE☢️ COMMAND LIST\n\n';
     let ezraList = [];
 
     // Loop through all commands to fetch the relevant information (commands, description, and aliases)
@@ -61,7 +61,7 @@ ezra({
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterName: "@Creinsibraal",
          serverMessageId: 143,
             }
         }
