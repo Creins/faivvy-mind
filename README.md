@@ -2,13 +2,13 @@
 
 # 🌟 creins xmd🚀
 
-[![FREDIEZRA TECH](https://raw.githubusercontent.com/creins-xmd/main/media/lucky.svg)](https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m)
+[![Creins TECH](https://raw.githubusercontent.com/creins-xmd/main/media/lucky.svg)](https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m)
 
 ---
 
 ## 📊 Profile Overview
 
-👤 **Developer**: [FREDI AI](https://github.com/creins)  
+👤 **Developer**: [CreinsAI](https://github.com/creins)  
 📊 **Profile Views**:  
 ![Profile Views](https://komarev.com/ghpvc/?username=mr-creins&label=VIEWS&style=flat-square&color=blue)
 
@@ -25,8 +25,8 @@
 
 ## 🎯 Features
 
-✨ **Anti-Features**: Anti-call, anti-delete, short session  
-✨ **Auto-Features**: Auto status read, auto message react  
+✨ **Anti-Features**: Anti-call, anti-delete,anti edit short session  
+✨ **Auto-Features**: Auto status read,auto message reply, auto message react,auto status react,auto bio, auto dp change  
 ✨ **Dual Mode**: Group + DM features  
 ✨ **Privacy**: Public/Private mode  
 ✨ **Hosting**: Secure cloud-hosting compatible  
@@ -66,22 +66,22 @@
 ## 📝 License
 
 📜 **License**: This project is under [MIT License](LICENSE).  
-📢 **Credits**: Developed with ❤️ by [FredieTech](https://github.com/mr-X-force).  
+📢 **Credits**: Developed with ❤️ by [creinsTech](https://github.com/mr-X-force).  
 
 ---
 
 ## 📱 Connect With Me
 
-📱 **Facebook**: [FredieEzra](https://facebook.com/@FrediEzra)  
-📸 **Instagram**: [frediezra](https://instagram.com/frediezra)  
-📹 **YouTube**: [FrediAi-Tech](https://youtube.com/frediai-tech)  
-📧 **GitHub**: [Fredi Ai](https://github.com/mr-X-force)  
+📱 **Facebook**: [Clyde dih ibral](https://facebook.com/@FrediEzra)  
+📸 **Instagram**: [ibraal](https://instagram.com/frediezra)  
+📹 **YouTube**: [creinsAi-Tech](https://youtube.com/frediai-tech)  
+📧 **GitHub**: [ CreinsAi](https://github.com/mr-X-force)  
 
 ---
 
 ## 📲 Download APK
 
-📁 **Download APK**: [Fredi.AI v2.9.9](https://www.mediafire.com/file/chyvv2mktqc9jsv/fredi.ai.v2.9.9.apk)  
+📁 **Download APK**: [creins.AI v2.9.9](https://www.mediafire.com/file/chyvv2mktqc9jsv/fredi.ai.v2.9.9.apk)  
 <details><summary>Installation Steps</summary>
 1. Download the APK file  
 2. Enable "Install from unknown sources" in your device settings  
