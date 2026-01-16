@@ -1,11 +1,11 @@
 const axios = require("axios");
-const {ibraak} = require("../creins/ezraconst traduire = require("../fredi/traduction");
+const {ibraal} = require("../creins/ibraal                                                                         const traduire = require("../creins/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 const conf = require("../set");
-
-ezra({
+ const traduire = require("../creins/traduction");
+ibraal({
   nomCom: "ranime",
-  categorie: "Fredi-Fun",
+  categorie: "Creins-Fun",
   reaction: "📺"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -27,7 +27,7 @@ async (origineMessage, zk, commandeOptions) => {
 
     const message = `📺 Titre: ${title}\n🎬 Épisodes: ${episodes}\n📡 Statut: ${status}\n📝 Synopsis: ${synopsis}\n🔗 URL: ${data.url}
     
-    \n\n> regards fredidezra\n\n`;
+    \n\n> regards creinsibraal\n\n`;
     
     // Envoyer l'image et les informations
     zk.sendMessage(origineMessage, { image: { url: imageUrl }, caption: message }, { quoted: ms });
@@ -39,12 +39,12 @@ async (origineMessage, zk, commandeOptions) => {
 
 ezra({
   nomCom: "google",
-  categorie: "Fredi-Search"
+  categorie: "Creins-Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre } = commandeOptions;
   
   if (!arg[0] || arg === "") {
-    repondre("Give me a query.\n*Example: .google Who is Lucky Md.*");
+    repondre("Give me a query.\n*Example: .google Who is Creins Md.*");
     return;
   }
 
@@ -68,7 +68,7 @@ ezra({
 
 ezra({
   nomCom: "imdb",
-  categorie: "Fredi-Search"
+  categorie: "Creins-Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
 
@@ -83,7 +83,7 @@ ezra({
     const imdbData = response.data;
 
     let imdbInfo = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbInfo += " ``` lMDB SEARCH BY LUCKY MD XFORCE```\n";
+    imdbInfo += " ``` lMDB SEARCH BY CREINS MD XFORCE```\n";
     imdbInfo += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";
@@ -147,7 +147,7 @@ ezra({
       // Si la requête a réussi, envoyez l'image résultante
       
       let stickerMess = new Sticker(response.data.result, {
-        pack: "LUCKY MD XFORCE",
+        pack: "CREINS MD XFORCE",
         type: StickerTypes.CROPPED,
         categories: ["🤩", "🎉"],
         id: "12345",
