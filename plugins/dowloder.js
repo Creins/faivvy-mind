@@ -1,10 +1,10 @@
-const { ezra } = require("../fredi/ezra");
+const { ibraal } = require("../fredi/ezra");
 const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');
 const { Catbox } = require("node-catbox");
 const fs = require('fs-extra');
-const { repondre } = require(__dirname + "/../fredi/context");
+const { repondre } = require(__dirname + "/../creins/context");
 
 // Initialize Catbox
 const catbox = new Catbox();
@@ -78,7 +78,7 @@ async function downloadFromApis(apis) {
 ezra({
   nomCom: "play2",
   aliases: ["song", "playdoc", "audio", "mp3"],
-  categorie: "Fredi-Download",
+  categorie: "Creins-Download",
   reaction: "🎵"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
@@ -193,7 +193,7 @@ ezra({
 // URL upload command
 ezra({
   nomCom: 'url-link',
-  categorie: "Fredi-Download",
+  categorie: "Creins-Download",
   reaction: '👨🏿‍💻'
 }, async (dest, zk, commandOptions) => {
   const { msgRepondu, userJid, ms } = commandOptions;
