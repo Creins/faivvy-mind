@@ -1,5 +1,5 @@
-const { ezra } = require("../fredi/ezra");
-const { delay, loading, react } = require("../fredi/utils");
+const { ezra } = require("../creins/ibraal");
+const { delay, loading, react } = require("../creins/utils");
 const moment = require("moment-timezone");
 const conf = require("../set.js");
 const fs = require("fs");
@@ -10,15 +10,15 @@ const {
 } = require("@whiskeysockets/baileys");
 
 // bug database
-const { bugtext1 } = require("../fredi/fredi/bugtext1");
-const { bugtext2 } = require("../fredi/fredi/bugtext2");
-const { bugtext3 } = require("../fredi/fredi/bugtext3");
-const { bugtext4 } = require("../fredi/fredi/bugtext4");
-const { bugtext5 } = require("../fredi/fredi/bugtext5");
-const { bugtext6 } = require("../fredi/fredi/bugtext6");
-const { bugpdf } = require("../fredi/fredi/bugpdf.js");
+const { bugtext1 } = require("../creins/creins/bugtext1");
+const { bugtext2 } = require("../creins/creins/bugtext2");
+const { bugtext3 } = require("../creins/creins/bugtext3");
+const { bugtext4 } = require("../creins/creins/bugtext4");
+const { bugtext5 } = require("../creins/creins/bugtext5");
+const { bugtext6 } = require("../creins/creins/bugtext6");
+const { bugpdf } = require("../creins/creins/bugpdf.js");
 
-const category = "Fredi-Wa-Crush";
+const category = "Creins-Wa-Crush";
 const reaction = "🤯";
 
 const mess = {};
@@ -117,7 +117,7 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 ezra(
     {
-        nomCom: "fredi-crush",
+        nomCom: "creins-crush",
         categorie: category,
         reaction: reaction
     },
