@@ -1,7 +1,7 @@
 const axios = require('axios');
-const { ezra } = require('../fredi/ezra');
+const { ibraal } = require('../creins/ibraal');
 
-ezra({
+ibraal({
   nomCom: "currencylist",
   aliases: ["currencies", "conversionrates"],
   reaction: '💲',
@@ -45,7 +45,7 @@ ezra({
   }
 });
 
-ezra({
+ibraal[{
   nomCom: "forex",
   categorie: "trade-place",
   desc: "Fetches the latest forex news",
@@ -82,7 +82,7 @@ ezra({
     return repondre("*Failed to fetch forex news.*");
   }
 });
-ezra({
+ibraal({
   nomCom: "fxstatus",
   categorie: "trade-place",
   desc: "Fetches the current status of the forex market",
@@ -136,7 +136,7 @@ ezra({
   }
 });
 
-ezra({
+ibraal({
   nomCom: "fxpairs",
 aliases: ["forexpairs", "pairforex"],
   categorie: "trade-place",
