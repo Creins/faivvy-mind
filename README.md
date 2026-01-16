@@ -2,7 +2,7 @@
 
 # 🌟 creins xmd🚀
 
-[![Creins TECH](https://raw.githubusercontent.com/creins-xmd/main/media/lucky.svg)](https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m)
+[![Creins TECH](https://raw.githubusercontent.com/creins-xmd/main/media/Creins.svg)](https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m)
 
 ---
 
@@ -48,7 +48,7 @@
 </a>
 
 1. **Fork the Repo**: Start by forking this repository to your GitHub account.  
-2. **Get Session ID**: Use [this link](https://test-pair-uuw6.onrender.com) to get your session ID.  
+2. **Get Session ID**: Use [this link](https://test-pair-uuw7.onrender.com) to get your session ID.  
 3. **Choose Host**: Select a deployment platform from the options above.  
 4. **Deploy**: Follow the platform-specific instructions to deploy the bot.  
 5. **Configure**: Set up environment variables like SESSION_ID as required.  
