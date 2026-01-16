@@ -1,6 +1,5 @@
 const axios = require("axios");
-const {ezra} = require("../fredi/ezra");
-const traduire = require("../fredi/traduction");
+const {ibraak} = require("../creins/ezraconst traduire = require("../fredi/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 const conf = require("../set");
 
