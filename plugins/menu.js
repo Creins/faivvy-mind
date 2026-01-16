@@ -1,5 +1,5 @@
 "use strict";
-const { ezra } = require("../fredi/ezra");
+const {  ibraal } = require("../creins/ibraal");
 const moment = require("moment-timezone");
 const os = require("os");
 const s = require("../set");
@@ -31,7 +31,7 @@ ezra({
     nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
     const { repondre, prefixe, nomAuteurMessage } = commandeOptions;
-    const { cm } = require("../fredi/ezra");
+    const { cm } = require("../creins/ibraal");
     let coms = {};
     let mode = "public";
     
