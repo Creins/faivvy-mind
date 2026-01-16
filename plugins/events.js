@@ -1,10 +1,10 @@
-const { ezra } = require('../fredi/ezra');
+const { ibraal } = require('../creins/ibraal');
 const { attribuerUnevaleur } = require('../lib/welcome');
 
 async function events(nomCom) {
-    ezra({
+    ibraal({
         nomCom: nomCom,
-        categorie: 'Fredi-Group'
+        categorie: 'Creins-Group'
     }, async (dest, zk, commandeOptions) => {
         const { ms, arg, repondre, superUser, verifAdmin } = commandeOptions;
 
