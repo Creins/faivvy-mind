@@ -1,4 +1,4 @@
-const {ezra} = require('../fredi/ezra');
+const {ezra} = require('../creins/ibraal');
 const fs = require("fs");
 const { exec } = require("child_process");
 
@@ -8,7 +8,7 @@ const filename = `${Math.random().toString(36)}`;
 ezra (
     {
         nomCom : 'deep',
-        categorie : 'Fredi-Audio-Edit',
+        categorie : 'Creins-Audio-Edit',
 
     }, async (dest , zk, commandeOptions) => {
         const {ms , repondre,msgRepondu} = commandeOptions;
@@ -53,7 +53,7 @@ ezra (
 ezra (
     {
         nomCom : 'bass',
-        categorie : 'Fredi-Audio-Edit',
+        categorie : 'Creins-Audio-Edit',
 
     }, async (dest , zk, commandeOptions) => {
         const {ms , repondre,msgRepondu} = commandeOptions;
@@ -98,7 +98,7 @@ ezra (
 ezra(
     {
       nomCom: 'reverse',
-      categorie: 'Fredi-Audio-Edit',
+      categorie: 'Creins-Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -134,7 +134,7 @@ ezra(
   ezra(
     {
       nomCom: 'slow',
-      categorie: 'Fredi-Audio-Edit',
+      categorie: 'Creins-Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -171,7 +171,7 @@ ezra(
 ezra(
     {
       nomCom: 'smooth',
-      categorie: 'Fredi-Audio-Edit',
+      categorie: 'Creins-Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -208,7 +208,7 @@ ezra(
   ezra(
     {
       nomCom: 'tempo',
-      categorie: 'Fredi-Audio-Edit',
+      categorie: 'Creins-Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
@@ -245,7 +245,7 @@ ezra(
   ezra(
     {
       nomCom: 'nightcore',
-      categorie: 'Fredi-Audio-Edit',
+      categorie: 'Creins- Audio-Edit',
     },
     async (dest, zk, commandeOptions) => {
       const { ms, repondre, msgRepondu } = commandeOptions;
