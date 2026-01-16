@@ -1,11 +1,11 @@
-const { ezra } = require("../fredi/ezra");
+const { ibraal } = require("../creins/ibraal");
 const { ajouterOuMettreAJourJid, mettreAJourAction, verifierEtatJid } = require("../lib/antilien");
 const { atbajouterOuMettreAJourJid, atbverifierEtatJid } = require("../lib/antibot");
 const fs = require("fs-extra");
 const conf = require("../set");
 const { default: axios } = require('axios');
 
-ezra({ nomCom: "forward", categorie: 'Fredi-Group', reaction: "📤" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "forward", categorie: 'Creins-Group', reaction: "📤" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser  } = commandeOptions;
 
   if (!verifGroupe) {
@@ -23,7 +23,7 @@ ezra({ nomCom: "forward", categorie: 'Fredi-Group', reaction: "📤" }, async (d
       // Send the message directly to the member's DM
       await zk.sendMessage(memberNumber, { text: mess });
     }
-    repondre('*Lucky Xforce Forwarded Your Message To All group members in their DMs.*');
+    repondre('*CREINS Xforce Forwarded Your Message To All group members in their DMs.*');
   } else {
     repondre('*Only My Owner Can Use This Command.*');
   }
