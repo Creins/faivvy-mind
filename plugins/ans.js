@@ -1,4 +1,4 @@
-const { ezra } = require('../fredi/ezra');
+const { creins } = require('../creins/ibraal');
 const traduire = require("../fredi/traduction") ;
 const { default: axios } = require('axios');
 //const conf = require('../set');
@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 
 
 
-ezra({nomCom:"lucky",reaction:"🤷",categorie:"creins-IA"},async(dest,zk,commandeOptions)=>{
+ezra({nomCom:"Creins",reaction:"🤷",categorie:"creins-IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
