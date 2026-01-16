@@ -1,11 +1,11 @@
-const {ezra} = require("../fredi/ezra");
+const {ibraal} = require("../creins/ibraal");
 const axios = require('axios');
 
 
 
-ezra({
+ibraal({
     nomCom: "chifumi",
-    categorie: "Fredi-Games",
+    categorie: "Creins-Games",
     reaction: "🪫"
   },
   async (origineMessage, zk, commandeOptions) => {
@@ -136,7 +136,7 @@ Therefore, the game is canceled`, mentions : [auteurMessage, auteurMsgRepondu]})
 
 
 ezra(
-    { nomCom: "quizz", categorie: "Fredi-Games", reaction: "🎮" },
+    { nomCom: "quizz", categorie: "CREINS-Games", reaction: "🎮" },
     async (origineMessage, zk, commandeOptions) => {
         const { repondre, auteurMessage } = commandeOptions;
 
@@ -144,7 +144,7 @@ ezra(
          let quizz = await axios.get("https://quizzapi.jomoreschi.fr/api/v1/quiz?limit=1&difficulty=facile") ;
 
          
-   let msg = `     ☢️LUCKY MD X-FORCE☢️-Quizz-Games
+   let msg = `     ☢️CREINS MD X-FORCE☢️-Quizz-Games
 
 *Category :* ${quizz.data.quizzes[0].category}
 *Question :* ${quizz.data.quizzes[0].question}\n\n*Suggested answers :*\n`
