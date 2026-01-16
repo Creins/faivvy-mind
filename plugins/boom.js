@@ -1,11 +1,11 @@
-const {ezra} = require("../fredi/ezra");
+const {ezra} = require("../creins/Ibraal");
 const conf = require("../set");
 
 // Work for Boom message 
 ezra(
   {
     nomCom: 'boom',
-    categorie: 'Fredi-Fun',
+    categorie: 'Creins-Fun',
     reaction: '😈',
   }, 
 
