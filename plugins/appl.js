@@ -1,7 +1,7 @@
-const { ezra } = require('../fredi/ezra');
+const { ezra } = require('../creins/ibraal');
 const axios = require('axios');
 const fs = require('fs-extra');
-const { mediafireDl } = require("../fredi/dl/Function");
+const { mediafireDl } = require("../creins/dl/Function");
 const conf = require(__dirname + "/../set");
 
 
@@ -9,7 +9,7 @@ ezra({
   nomCom: 'apk',
   aliases: ['app', 'playstore'],
   reaction: '📂',
-  categorie: 'Fredi-Download'
+  categorie: 'creins-Download'
 }, async (groupId, client, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
@@ -45,12 +45,12 @@ ezra({
       document: { url: appDetails.BK9.dllink },
       fileName: `${appDetails.BK9.name}.apk`,
       mimetype: "application/vnd.android.package-archive",
-      caption: `APPLICATION DOWLODED BY ☢️LUCKY MD X-FORCE☢️`,
+      caption: `APPLICATION DOWLODED BY ☢️CREINS MD X-FORCE☢️`,
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterName: "@Creinsibraal",
          serverMessageId: 143,
         }
       }
@@ -68,7 +68,7 @@ ezra({
   'nomCom': 'app',
   'aliases': ['apks', 'playstore'],
   'reaction': '🉑',
-  'categorie': 'Fredi-Download'
+  'categorie': 'Creins-Download'
 }, async (groupId, client, context) => {
   const { repondre, arg, ms } = context;
 
@@ -104,7 +104,7 @@ ezra({
         document: { url: appDetails.BK9.dllink },
         fileName: `${appDetails.BK9.name}.apk`,
         mimetype: "application/vnd.android.package-archive",
-        caption: "☢️LUCKY MD X-FORCE☢️"
+        caption: "☢️CREINS MD X-FORCE☢️"
       },
       { quoted: ms }
     );
@@ -159,12 +159,12 @@ ezra({
       document: { url: apiUrl },
       fileName: `${fileName}.zip`,
       mimetype: "application/zip",
-      caption: `GITHUB ZIP BY ☢️LUCKY MD X-FORCE☢️`,
+      caption: `GITHUB ZIP BY ☢️CREINS MD X-FORCE☢️`,
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363313124070136@newsletter',
-         newsletterName: "@FrediEzra",
+         newsletterName: "@Creins ibraal",
          serverMessageId: 143,
         }
       }
