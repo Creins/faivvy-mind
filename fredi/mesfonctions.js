@@ -215,7 +215,7 @@ async function ajouterCommande() {
     /*const readDir = util.promisify(fs.readdir);
     const readFile = util.promisify(fs.readFile);
     //console.log("ch " + __dirname + '../')
-    var chemin = './luckycmd/'
+    var chemin = './Creinsxmd/'
     var nomFichier = await readDir(chemin)
   //console.log("installation des plugins ... ")
     nomFichier.forEach((fichier) => {
@@ -292,3 +292,4 @@ exports.generatepp = async (buffer) => {
         preview: previewBuffer
     };
 }
+
