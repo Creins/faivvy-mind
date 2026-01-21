@@ -1,6 +1,6 @@
 
 
-const { ezra } = require("../fredi/ezra")
+const { ezra } = require("../creins/ibraal")
 //const { getGroupe } = require("../lib/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const {ajouterOuMettreAJourJid,mettreAJourAction,verifierEtatJid} = require("../lib/antilien")
@@ -16,7 +16,7 @@ const s = require("../set")
 
 
 // COMMAND TO WARN USERS GROUP 
-ezra(
+ibraal(
     {
         nomCom : 'warn',
         categorie : 'creins-Group'
@@ -53,7 +53,7 @@ if(verifAdmin || superUser) {
    
    
  // COMMAND TO GETALLMEMBERS 
-ezra({ nomCom: "getallmembers", categorie: 'creins-Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "getallmembers", categorie: 'creins-Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions;
 
   if (!verifGroupe) return repondre("✋🏿 This command is reserved for groups ❌");
@@ -64,7 +64,7 @@ ezra({ nomCom: "getallmembers", categorie: 'creins-Group', reaction: "📣" }, a
   let tag = `☢️CREINS-MD-XFORCE☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
         🌟 *GROUP MEMBERS GIDS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
-> regards frediezra®\n\n`;
+> regards creinsibraal®\n\n`;
 
   const emoji = ['💡', '☢️', '🗡️', '🖌️', '🪫', '🔋', '⚙️', '🕶️', '🌡️', '✏️', '📌', '©️', '$','®️','™️','⚔️','🔏'];
   const randomEmoji = emoji[Math.floor(Math.random() * emoji.length)];
@@ -139,7 +139,7 @@ ezra({ nomCom: "tagall", categorie: 'Fredi-Group', reaction: "📯" }, async (de
 
 
 // COMMAND TO LINK GROUP 
-ezra({ nomCom: "link", categorie: 'Creins-Group', reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "link", categorie: 'Creins-Group', reaction: "🚜" }, async (dest, zk, commandeOptions) => {
   const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
 
@@ -158,7 +158,7 @@ Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️CREINS-MD-
 
 // COMMAND TO PROMOTE ADM
 /** *nommer un membre comme admin */
-ezra({ nomCom: "promote", categorie: 'Fredi-Group', reaction: "💐" }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "promote", categorie: 'creins-Group', reaction: "💐" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -218,7 +218,7 @@ ezra({ nomCom: "promote", categorie: 'Fredi-Group', reaction: "💐" }, async (d
 })
 
 // COMMAND TO DEMOTE ADM
-ezra({ nomCom: "demote", categorie: 'Fredi-Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "demote", categorie: 'Creins-Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("For groups only"); }
@@ -282,7 +282,7 @@ ezra({ nomCom: "demote", categorie: 'Fredi-Group', reaction: "👨🏿‍💼" }
 
 
 // COMMAND TO REMOVE MEMBERS 
-ezra({ nomCom: "remove", categorie: 'creins-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "remove", categorie: 'creins-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only"); }
@@ -355,7 +355,7 @@ ezra({ nomCom: "remove", categorie: 'creins-Group', reaction: "😱" }, async (d
 })
 
 // COMMAND TO DELETE 
-ezra({ nomCom: "del", categorie: 'Fredi-Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "del", categorie: 'Creins-Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
 
   const { ms, repondre, verifGroupe,auteurMsgRepondu,idBot, msgRepondu, verifAdmin, superUser} = commandeOptions;
   
@@ -404,7 +404,7 @@ ezra({ nomCom: "del", categorie: 'Fredi-Group',reaction:"🧹" }, async (dest, z
 });
 
 // COMMAND TO GRUP INFO
-ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOptions) => {
+ibraal({ nomCom: "info", categorie: 'Creins-Group' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("order reserved for the group only"); return };
 
@@ -427,7 +427,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
 
  // COMMAND TO ACTVATE ANTILINK GROUP
- ezra({ nomCom: "antilink", categorie: 'Fredi-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+ ibraal({ nomCom: "antilink", categorie: 'Creins-Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
 
 
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
