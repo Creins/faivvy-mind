@@ -12,7 +12,7 @@ module.exports = { session: process.env.SESSION_ID || 'creins',
     GITHUB : process.env.GITHUB|| 'https://github.com/mr-X-force/CREINS-MD-XFORCE',
     OWNER_NAME : process.env.OWNER_NAME || "CREINS",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "254787243487",
-    DEV : process.env.DEV || "FrediEzra Tz",
+    DEV : process.env.DEV || "Creinsibraal Ke",
               
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
