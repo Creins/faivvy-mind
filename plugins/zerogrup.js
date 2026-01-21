@@ -19,7 +19,7 @@ const s = require("../set")
 ezra(
     {
         nomCom : 'warn',
-        categorie : 'Fredi-Group'
+        categorie : 'creins-Group'
         
     },async (dest,zk,commandeOptions) => {
 
@@ -53,7 +53,7 @@ if(verifAdmin || superUser) {
    
    
  // COMMAND TO GETALLMEMBERS 
-ezra({ nomCom: "getallmembers", categorie: 'Fredi-Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "getallmembers", categorie: 'creins-Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions;
 
   if (!verifGroupe) return repondre("✋🏿 This command is reserved for groups ❌");
@@ -61,7 +61,7 @@ ezra({ nomCom: "getallmembers", categorie: 'Fredi-Group', reaction: "📣" }, as
   let mess = Array.isArray(arg) && arg.length ? arg.join(' ') : 'No message provided';
   let membresGroupe = verifGroupe && infosGroupe ? infosGroupe.participants || [] : [];
 
-  let tag = `☢️LUCKY-MD-XFORCE☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
+  let tag = `☢️CREINS-MD-XFORCE☢️\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
         🌟 *GROUP MEMBERS GIDS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 > regards frediezra®\n\n`;
@@ -107,7 +107,7 @@ ezra({ nomCom: "tagall", categorie: 'Fredi-Group', reaction: "📯" }, async (de
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n  
-        🌟 *LUCKY-MD-XFORCE TAGS* 🌟
+        🌟 *CREINS-MD-XFORCE TAGS* 🌟
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
@@ -139,7 +139,7 @@ ezra({ nomCom: "tagall", categorie: 'Fredi-Group', reaction: "📯" }, async (de
 
 
 // COMMAND TO LINK GROUP 
-ezra({ nomCom: "link", categorie: 'Fredi-Group', reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "link", categorie: 'Creins-Group', reaction: "🚜" }, async (dest, zk, commandeOptions) => {
   const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
   if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
 
@@ -149,7 +149,7 @@ ezra({ nomCom: "link", categorie: 'Fredi-Group', reaction: "🚜" }, async (dest
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️LUCKY-MD-XFORCE☢️`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  ☢️CREINS-MD-XFORCE☢️`
   repondre(mess)
 
 
@@ -282,7 +282,7 @@ ezra({ nomCom: "demote", categorie: 'Fredi-Group', reaction: "👨🏿‍💼" }
 
 
 // COMMAND TO REMOVE MEMBERS 
-ezra({ nomCom: "remove", categorie: 'Fredi-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "remove", categorie: 'creins-Group', reaction: "😱" }, async (dest, zk, commandeOptions) => {
   let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   if (!verifGroupe) { return repondre("for groups only"); }
@@ -325,9 +325,9 @@ ezra({ nomCom: "remove", categorie: 'Fredi-Group', reaction: "😱" }, async (de
         if (zkad) {
           if (membre) {
             if (admin == false) {
-              const gifLink = "https://raw.githubusercontent.com/mr-X-force/LUCKY-MD-XFORCE/main/media/remover.gif"
+              const gifLink = "https://raw.githubusercontent.com/mr-X-force CREINS-MD-XFORCE/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'LUCKY-MD-XFORCE', // The pack name
+                pack: 'CREINS-MD-XFORCE', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -417,7 +417,7 @@ ezra({ nomCom: "info", categorie: 'Fredi-Group' }, async (dest, zk, commandeOpti
 
     let mess = {
       image: { url: ppgroup },
-      caption:  `☢️LUCKY-MD-XFORCE☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+      caption:  `☢️CREINS-MD-XFORCE☢️\n\n*━━━━『𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
     }
 
 
