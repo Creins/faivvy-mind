@@ -12,7 +12,7 @@ app.use('/pair',async (req, res, next) => {
 res.sendFile(__path + '/fredipair.html')
 })
 app.use('/qr', async (req, res, next) => {  
-    res.sendFile(__path + '/frediqr.html')
+    res.sendFile(__path + '/IBRAALqr.html')
 });
 app.use('/',async (req, res, next) => {
 res.sendFile(__path + '/index.html')
