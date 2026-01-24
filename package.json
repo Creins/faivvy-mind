@@ -1,6 +1,6 @@
 {
     "description": "fee-sessions",
-    "main": "./ibraal.js",
+    "main": "./fredi.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
