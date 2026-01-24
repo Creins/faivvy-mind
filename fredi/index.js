@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.genererNomFichier = exports.stick = exports.format = exports.styletext = exports.zJson = exports.getBuffer = exports.reaction = exports.police = exports.ezra = void 0;
 let { ibraal } = require("./ezra");
-exports.ibraal= ibraal;
+exports.fredi= fredi;
 const mesfonctions_1 = require("./mesfonctions");
 Object.defineProperty(exports, "reaction", { enumerable: true, get: function () { return mesfonctions_1.reaction; } });
 Object.defineProperty(exports, "police", { enumerable: true, get: function () { return mesfonctions_1.police; } });
