@@ -1,7 +1,7 @@
 
 var tabCmds = [];
 let cm = [];
-function ibraal(obj, fonctions) {
+function fredi(obj, fonctions) {
     let infoComs = obj;
     if (!obj.categorie) {
         infoComs.categorie = "General";
