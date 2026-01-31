@@ -1,6 +1,6 @@
 
 
-const { ezra } = require("../creins/ibraal")
+const { ezra } = require("../fredi/ezra")
 //const { getGroupe } = require("../lib/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const {ajouterOuMettreAJourJid,mettreAJourAction,verifierEtatJid} = require("../lib/antilien")
