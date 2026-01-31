@@ -3,7 +3,7 @@ const {fredi} = require("../fredi/ezra                                          
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 const conf = require("../set");
  const traduire = require("../creins/traduction");
-ibraal({
+ezra({
   nomCom: "ranime",
   categorie: "fredi-Fun",
   reaction: "📺"
