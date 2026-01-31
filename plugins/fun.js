@@ -1,11 +1,11 @@
 const axios = require("axios");
-const {ibraal} = require("../creins/ibraal                                                                         const traduire = require("../creins/traduction");
+const {fredi} = require("../fredi/ezra                                                                     const traduire = require("../creins/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 const conf = require("../set");
  const traduire = require("../creins/traduction");
 ibraal({
   nomCom: "ranime",
-  categorie: "Creins-Fun",
+  categorie: "fredi-Fun",
   reaction: "📺"
 },
 async (origineMessage, zk, commandeOptions) => {
@@ -27,7 +27,7 @@ async (origineMessage, zk, commandeOptions) => {
 
     const message = `📺 Titre: ${title}\n🎬 Épisodes: ${episodes}\n📡 Statut: ${status}\n📝 Synopsis: ${synopsis}\n🔗 URL: ${data.url}
     
-    \n\n> regards creinsibraal\n\n`;
+    \n\n> regards frediezra\n\n`;
     
     // Envoyer l'image et les informations
     zk.sendMessage(origineMessage, { image: { url: imageUrl }, caption: message }, { quoted: ms });
@@ -39,12 +39,12 @@ async (origineMessage, zk, commandeOptions) => {
 
 ezra({
   nomCom: "google",
-  categorie: "Creins-Search"
+  categorie: "Fredi-Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre } = commandeOptions;
   
   if (!arg[0] || arg === "") {
-    repondre("Give me a query.\n*Example: .google Who is Creins Md.*");
+    repondre("Give me a query.\n*Example: .google Who is FrediMd.*");
     return;
   }
 
@@ -68,7 +68,7 @@ ezra({
 
 ezra({
   nomCom: "imdb",
-  categorie: "Creins-Search"
+  categorie: "fredi-Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
 
