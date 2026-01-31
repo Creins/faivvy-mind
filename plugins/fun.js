@@ -2,7 +2,7 @@ const axios = require("axios");
 const {fredi} = require("../fredi/ezra                                                                     const traduire = require("../creins/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 const conf = require("../set");
- const traduire = require("../creins/traduction");
+ const traduire = require("../fredi/traduction");
 ezra({
   nomCom: "ranime",
   categorie: "fredi-Fun",
